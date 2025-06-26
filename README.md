@@ -1,6 +1,6 @@
 # week 5 SQL Injection Attack Walkthrough using DVWA
 
-week 5 - 透過 DVWA 完整體驗 SQL Injection 攻擊流程
+week 5 - 使用 DVWA 進行 SQL 注入攻擊演練
 
 <h2>Outline 簡介</h2>
 In this tutorial-based project from Week 5, I installed and configured Damn Vulnerable Web Application (DVWA) in a local virtual environment to simulate a real-world vulnerable web application. After setting the DVWA security level to low, I practiced fundamental and advanced SQL injection techniques.
