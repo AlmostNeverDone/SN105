@@ -1,4 +1,4 @@
-# week 5 SQL Injection Attack Walkthrough using DVWA
+# [week 5] SQL Injection Attack Walkthrough using DVWA
 
 week 5 - 使用 DVWA 進行 SQL 注入攻擊演練
 
