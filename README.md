@@ -3,9 +3,10 @@
 使用 DVWA 進行 SQL 注入攻擊演練
 
 <h2>Outline 簡介</h2>
-In this tutorial-based project from Week 5, I installed and configured Damn Vulnerable Web Application (DVWA) in a local virtual environment to simulate a real-world vulnerable web application. After setting the DVWA security level to low, I practiced fundamental and advanced SQL injection techniques.
 
-在第五週的課程中，我實際安裝並操作了 DVWA（Damn Vulnerable Web Application），於本地虛擬機進行安全測試環境建置，並將安全等級調整為「low」，以便模擬常見的網頁應用程式漏洞: SQL Injection（SQL 注入）攻擊手法。
+Hands-on exploration of SQL Injection using the Damn Vulnerable Web Application (DVWA) to understand input validation gaps, Boolean logic abuse, and UNION-based data enumeration—performed strictly in an isolated lab VM.
+
+在受控的 DVWA 環境中動手實作 SQL 注入，理解輸入驗證缺口、布林邏輯繞過與以 UNION 進行資料枚舉；所有操作僅於隔離實驗用 VM 內完成。
 
 <h2>Objectives 目的</h2>
 
@@ -17,3 +18,22 @@ By modifying SQL query logic via crafted input values, I successfully (透過逐
 
 
 <h2>Materials and Methods 材料與方法</h2>
+
+[Environment]
+* Linux Debian 12 VM with VirtualBox nested VMs (帶有 VirtualBox 嵌套虛擬機的 Linux Debian 12 虛擬機)</b> 
+* UniSQ Student VM Portal (UniSQ 學生用 VM)</b>
+* Damn Vulnerable Web Application [易受攻擊的 Web 應用程式 (DVWA)]</b>
+
+*Safety note: DVWA is intentionally vulnerable; do not deploy on internet-facing hosts.
+<br/>*安全提醒：DVWA 為刻意脆弱之系統，請勿對外公開部署。
+
+[Tasks]
+* Baseline Test(基線測試)</b>
+* Manipulated Input for Multiple Records(輸入操控取得多筆紀錄)</b>
+* Extract Database Version(讀取資料庫版本)</b>
+* Extract Database User(讀取資料庫使用者)</b>
+* Identify Active Database(確認當前資料庫)</b>
+* Enumerate Table Names(枚舉表格名稱)</b>
+* Filter User-Related Tables(過濾使用者相關表格)</b>
+* Enumerate Columns(枚舉欄位)</b>
+* Data Exposure Demonstration(資料洩漏示範)</b>
