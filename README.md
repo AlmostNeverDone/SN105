@@ -37,3 +37,44 @@ By modifying SQL query logic via crafted input values, I successfully (透過逐
 * Filter User-Related Tables(過濾使用者相關表格)</b>
 * Enumerate Columns(枚舉欄位)</b>
 * Data Exposure Demonstration(資料洩漏示範)</b>
+
+
+<h2>Practice 實踐</h2>
+
+<p align="center">
+Task 1: Baseline Test<br/>(基線測試) <br/>
+<img src="https://i.imgur.com/InVX6Db.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Task 2: Manipulated Input for Multiple Records<br/>(輸入操控取得多筆紀錄) <br/>
+<img src="https://i.imgur.com/mEu8Dnf.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Task 3: Extract Database Version<br/>(讀取資料庫版本) <br/>
+<img src="https://i.imgur.com/DlyOOx7.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Task 4: Extract Database User<br/>(讀取資料庫使用者) <br/>
+<img src="https://i.imgur.com/q5iRFJz.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Task 5: Identify Active Database<br/>(確認當前資料庫) <br/>
+<img src="https://i.imgur.com/dZJcibk.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+  
+<br />
+Task 6: Enumerate Table Names<br/>(枚舉表格名稱) <br/>
+<img src="https://i.imgur.com/vlCWr5J.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Task 7: Filter User-Related Tables<br/>(過濾使用者相關表格) <br/>
+<img src="https://i.imgur.com/KwvK4HX.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Task 8: Enumerate Columns<br/>(枚舉欄位) <br/>
+<img src="https://i.imgur.com/rTwtHs4.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Task 9: Data Exposure Demonstration<br/>(資料洩漏示範) <br/>
+<img src="https://i.imgur.com/XdTuhdB.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
